@@ -1,0 +1,50 @@
+/* modal */
+
+.backdrop.is-hidden {
+    .modal {
+    transform: translate(-50%, -50%) scale(0.7) rotate(180deg);
+    }
+}
+
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1) rotate(1turn);
+
+    min-width: 528px;
+    min-height: 581px;
+    border-radius: 4px;
+    padding: 40px 40px 123px 40px;
+
+    background-color: #FFFFFF;
+
+    transition: transform var(--timing-function);
+}
+
+.button.close {
+    position: fixed;
+    top: 8px;
+    right: 8px;
+
+    width: 30px;
+    height: 30px;
+    padding: 6px;
+
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    background-color: #FFFFFF;
+}
+
+.close-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.close {
+    &:hover, &:focus {
+    fill: var(--accent-color)
+    }
+}

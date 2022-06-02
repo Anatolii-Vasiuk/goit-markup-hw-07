@@ -1,0 +1,26 @@
+.header__logo {
+    margin-right: 93px;
+    width: 145px;
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
+
+.logo {
+    color: black;
+    font-family: "Raleway", "Proxima Nova", sans-serif;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    font-weight: 700;
+}
+
+.logo__part {
+    color: var(--accent-color);
+}
+
+.footer__logo {
+    display: block;
+    padding: 0;
+    margin-right: 0;
+    margin-bottom: 20px;
+}

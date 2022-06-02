@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebStudio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+            rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/main.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <a href="./index.html" class="logo header__logo"><span class="logo__part">Web</span>Studio</a>
+                <ul class="nav-list list">
+                    <li class="nav-list__item"><a href="./index.html" class="nav-list__link">Студия</a></li>
+                    <li class="nav-list__item"><a href="./portfolio.html" class="nav-list__link current">Портфолио</a></li>
+                    <li class="nav-list__item"><a href="#" class="nav-list__link">Контакты</a></li>
+                </ul>
+                <ul class="contacts-list list">
+                    <li class="contacts-list__item">
+                        <a href="mailto:info@devstudio.com" class="contacts-list__link">
+                            <svg width="16px" height="12px" class="contacts-list__icon">
+                                <use href="./images/icons.svg#icon-letter"></use>
+                            </svg>
+                            info@devstudio.com</a>
+                    </li>
+                    <li class="contacts-list__item">
+                        <a href="tel:380961111111" class="contacts-list__link">
+                            <svg width="10px" height="16px" class="contacts-list__icon">
+                                <use href="./images/icons.svg#icon-phone"></use>
+                            </svg>
+                            +38 096 111 11 11</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="section container">
+            <h1 class="visually-hidden">Наши работы</h1>
+
+            <ul class="button list">
+                <li class="filter"><button type="button" class="button">Все</button></li>
+                <li class="filter"><button type="button" class="button">Веб-сайты</button></li>
+                <li class="filter"><button type="button" class="button">Приложения</button></li>
+                <li class="filter"><button type="button" class="button">Дизайн</button></li>
+                <li class="filter"><button type="button" class="button">Маркетинг</button></li>
+            </ul>
+
+            <ul class="works list">
+                <li class="work-link">
+                    <a href="#" class="work-image">
+                        <div class="work-overlay">
+                            <img src="./images/work1.jpg" alt="ноутбук" width="370">
+                            <p class="work-description">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это
+                                позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+                        </div>
+                    <div class="works-title-border">
+                        <h2 class="works-title">Технокряк</h2>
+                        <p class="works-type">Веб-сайт</p>
+                    </div>
+                    </a>
+                </li>
+                <li class="work-link">
+                    <a href="#" class="work-image">
+                        <div class="work-overlay">
+                            <img src="./images/work2.jpg" alt="баскетболисты" width="370">
+                            <p class="work-description">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это
+                                позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+                        </div>
+                    <div class="works-title-border">
+                        <h2 class="works-title">Постер <span lang="en">New Orlean vs Golden Star</span></h2>
+                        <p class="works-type">Дизайн</p>
+                    </div>
+                    </a>
+                </li>
+                <li class="work-link">
+                    <a href="#" class="work-image"><div class="work-overlay">
+                        <img src="./images/work3.jpg" alt="лого рыбного ресторана" width="370">
+                        <p class="work-description">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все
+                            это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+                    </div>
+                    <div class="works-title-border">
+                        <h2 class="works-title">Ресторан <span lang="en">Seafood</span></h2>
+                        <p class="works-type">Приложение</p>
+                    </div>
+                    </a>
+                </li>
+                <li class="work-link">
+                    <a href="#" class="work-image">
+                        <div class="work-overlay">
+                            <img src="./images/work4.jpg" alt="наушники" width="370">
+                            <p class="work-description">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов.
+                                Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+                        </div>
+                    <div class="works-title-border">
+                        <h2 class="works-title">Проект <span lang="en">Prime</span></h2>
+                        <p class="works-type">Маркетинг</p>
+                    </div>
+                    </a>
+                </li>
+                <li class="work-link">
+                    <a href="#" class="work-image">
+                        <div class="work-overlay">
+                            <img src="./images/work5.jpg" alt="коробки" width="370">
+                            <p class="work-description">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов.
+                                Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+                        </div>
+                    <div class="works-title-border">
+                        <h2 class="works-title">Проект <span lang="en">Boxes</span></h2>
+                        <p class="works-type">Приложение</p>
+                    </div>
+                    </a>
+                </li>
+                <li class="work-link">
+                    <a href="#" class="work-image">
+                        <div class="work-overlay">
+                            <img src="./images/work6.jpg" alt="монитор" width="370">
+                            <p class="work-description">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов.
+                                Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+                        </div>
+                    <div class="works-title-border">
+                        <h2 lang="en" class="works-title">Inspiration has no Borders</h2>
+                        <p class="works-type">Веб-сайт</p>
+                    </div>
+                    </a>
+                </li>
+                <li class="work-link">
+                    <a href="#" class="work-image">
+                        <div class="work-overlay">
+                            <img src="./images/work7.jpg" alt="книга" width="370">
+                            <p class="work-description">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов.
+                                Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+                        </div>
+                    <div class="works-title-border">
+                        <h2 class="works-title">Издание <span lang="en">Limited Edition</span></h2>
+                        <p class="works-type">Дизайн</p>
+                    </div>
+                    </a>
+                </li>
+                <li class="work-link">
+                    <a href="#" class="work-image">
+                        <div class="work-overlay">
+                            <img src="./images/work8.jpg" alt="бирка" width="370">
+                            <p class="work-description">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов.
+                                Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+                        </div>
+                    <div class="works-title-border">
+                        <h2 class="works-title">Проект <span lang="en">LAB</span></h2>
+                        <p class="works-type">Маркетинг</p>
+                    </div>
+                    </a>
+                </li>
+                <li class="work-link">
+                    <a href="#" class="work-image">
+                        <div class="work-overlay">
+                            <img src="./images/work9.jpg" alt="работает за ноутбуком" width="370">
+                            <p class="work-description">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов.
+                                Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+                        </div>
+                    <div class="works-title-border">
+                        <h2 lang="en" class="works-title">Growing Business</h2>
+                        <p class="works-type">Приложение</p>
+                    </div>
+                    </a>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div>
+                <a href="./index.html" class="logo footer__logo"><span class="logo__part">Web</span>Studio</a>
+                <address>
+                    <ul class="contacts list">
+                        <li class="contacts-item">
+                            <a href="#">г. Киев, пр-т Леси Украинки, 2</a>
+                        </li>
+                        <li class="contacts-item">
+                            <a href="mailto:info@devstudio.com" class="transp"><span>info@devstudio.com </span></a>
+                        </li>
+                        <li class="contacts-item">
+                            <a href="tel:380961111111" class="transp"><span>+38 096 111 11 11</span></a>
+                        </li>
+                    </ul>
+                </address>
+            </div>
+            <div>
+                <h3>Присоединяйтесь</h3>
+                <div class="social-footer">
+                    <ul class="social-links footer">
+                        <li class="social-icon">
+                            <a href="instagram.com">
+                                <svg>
+                                    <use href="./images/icons.svg#icon-instagram" width="20"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="social-icon">
+                            <a href="twitter.com">
+                                <svg>
+                                    <use href="./images/icons.svg#icon-twitter" width="20"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="social-icon">
+                            <a href="facebook.com">
+                                <svg>
+                                    <use href="./images/icons.svg#icon-facebook" width="20"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="social-icon">
+                            <a href="linkedin.com">
+                                <svg>
+                                    <use href="./images/icons.svg#icon-linkedin" width="20"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mailing">
+                <h3>Подпишитесь на рассылку</h3>
+                <form>
+                    <label>
+                        <input type="email" placeholder="E-mail" class="mail-input" name="email" id="email">
+                    </label>
+                    <button type="submit" class="mailing button">Подписаться
+                        <svg width="24" height="24">
+                            <use href="./images/icons.svg#icon-send"></use>
+                        </svg>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

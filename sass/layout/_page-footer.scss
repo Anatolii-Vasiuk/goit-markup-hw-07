@@ -1,0 +1,128 @@
+/* footer */
+.footer {
+    background-color: var(--secondary-bg-color);
+}
+
+.footer {
+    a {
+    color: #ffffff;
+    }
+}
+
+.transp {
+    span {
+    color: rgba(255, 255, 255, 0.6);
+
+    transition: color var(--timing-function);
+    }
+}
+
+.transp {
+    span {
+        &:hover,
+        &:focus {
+        color: var(--accent-color);
+        fill: var(--accent-color)
+        }
+    }
+}
+
+.footer {
+    .container {
+    padding-top: 60px;
+    display: flex;
+    align-items: baseline;
+    }
+}
+
+.footer {
+    .contacts {
+    display: inline-block;
+    width: 231px;
+    margin-bottom: 60px;
+    }
+}
+
+.contacts-item{
+    &:not(:last-child) {
+    margin-bottom: 9px;
+    }
+}
+
+.contacts.list {
+    margin-right: 70px;
+}
+
+footer {
+    h3 {
+    text-transform: uppercase;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+
+    color: #FFFFFF;
+    }
+}
+
+.social-footer {
+    width: 206px;
+    height: 80px;
+    margin-right: 93px;
+}
+
+.social-links.footer {
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+}
+
+footer {
+    .social-icon {
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    fill: #FFFFFF;
+    border-radius: 50%;
+    }
+}
+
+/* mailing */
+
+.mailing {
+    h3 {
+    margin-bottom: 20px;
+    }
+}
+
+.mail-input {
+    min-width: 358px;
+    padding: 15px 0 15px 16px;
+    margin-right: 12px;
+
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    background-color: var(--secondary-bg-color);
+
+    line-height: 1.25px;
+    letter-spacing: 0.03em;
+
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.mailing.button {
+    position: relative;
+    padding: 10px 62px 10px 29px;
+    margin-left: -5px;
+}
+
+.mailing.button {
+    svg {
+    position: absolute;
+    top: 13px;
+    right: 28px;
+
+    fill: #FFFFFF;
+    }
+}

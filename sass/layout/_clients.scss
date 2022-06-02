@@ -1,0 +1,54 @@
+/* clients */
+
+.clients {
+    h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 50px;
+    }
+}
+
+.regular-clients {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.client-card{
+    &:not(:last-child) {
+    margin-right: 30px;
+    }
+}
+
+.client-link {
+    display: flex;
+    width: 170px;
+    height: 92px;
+    justify-content: center;
+    align-items: center;
+
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    color: #AFB1B8;
+
+    transition: fill var(--timing-function),
+        background-color var(--timing-function),
+        border-radius var(--timing-function);
+}
+
+.client-link {
+    svg {
+    fill: currentColor;
+    }
+}
+
+.client-link{
+    &:hover, &:focus {
+    border: 1px solid var(--accent-color);
+    border-radius: 4px;
+    color: var(--accent-color);
+    }
+}
